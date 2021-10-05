@@ -5,5 +5,5 @@ CMD /bin/false
 
 COPY foo bar
 
-RUN echo '{:version 11}' > whatever.json
+RUN echo '{:version 12}' > whatever.json
 ENTRYPOINT ["something3"]
